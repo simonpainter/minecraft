@@ -1,0 +1,2 @@
+#Minecraft Library for Empower Servers
+I have a bedrock server from Empower Servers which has a nice web based console and I thought I'd make a little class to send commands to it from my python scripts.
