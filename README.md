@@ -8,16 +8,16 @@ You will need selenium, the quickest way to install this is this:
 Currently this project is only working on Macs with Safari however cross browser support is possible.
 
 ## Basic use
->> from minecraft import empower_server
->>
->> server = "server uuid"
->> user = "user@email.com"
->> password = "xxxxxxxx"
->>
->> command = "setblock 0 0 100 sandstone"
+> from minecraft import empower_server
+>
+> server = "server uuid"
+> user = "user@email.com"
+> password = "xxxxxxxx"
+>
+> command = "setblock 0 0 100 sandstone"
 
->> mc = minecraft.empower_server(server, user, password)
->> mc.sendCommand(command)
->> mc.setBlock(0,0,100,"air")
->> mc.close()
+> mc = minecraft.empower_server(server, user, password)
+> mc.sendCommand(command)
+> mc.setBlock(0,0,100,"air")
+> mc.close()
 
