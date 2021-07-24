@@ -25,4 +25,5 @@ class empower_server:
 	def setBlock(self,x,y,z,block_name):
 		command = "setblock " + str(x) + " " + str(y) + " " + str(z) +  " " + block_name
 		self.sendCommand(command)
-
+	def close(self):
+		self.browser.close()
