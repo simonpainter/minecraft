@@ -10,14 +10,14 @@ Currently this project is only working on Macs with Safari however cross browser
 ## Basic use
 ```from minecraft import empower_server
 
- server = "server uuid"
- user = "user@email.com"
- password = "xxxxxxxx"
+server = "server uuid"
+user = "user@email.com"
+password = "xxxxxxxx"
 
- command = "setblock 0 0 100 sandstone"
-  mc = minecraft.empower_server(server, user, password)
- mc.sendCommand(command)
- mc.setBlock(0,0,100,"air")
- mc.close()
- ```
+command = "setblock 0 0 100 sandstone"
+mc = minecraft.empower_server(server, user, password)
+mc.sendCommand(command)
+mc.setBlock(0,0,100,"air")
+mc.close()
+```
 
