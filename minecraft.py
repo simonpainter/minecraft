@@ -12,9 +12,9 @@ class empower_server:
 		self.password = password
 		self.browser=self.webdriver.Safari()
 		self.browser.get("https://control.empowerservers.com/server/" + self.server + "/console")
-		input=self.browser.find_element_by_name("user")
+		input=self.browser.find_element_by_name("email")
 		input.send_keys(self.user)
-		input=self.browser.find_element_by_name("password")
+		input=self.browser.find_element_by_id("password-input")
 		input.send_keys(self.password)
 		input.send_keys(self.Keys.ENTER)
 		self.time.sleep(3)
